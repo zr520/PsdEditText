@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zr.payedittext.MainActivity">
+   >
+  <com.example.zr.payedittext.PsdEditText
+      android:id="@+id/ppe_pwd"
+      android:layout_width="match_parent"
+      android:layout_height="45dp"
+      android:layout_marginLeft="13dp"
+      android:layout_marginRight="13dp"
+      android:layout_marginTop="5dp"></com.example.zr.payedittext.PsdEditText>
+</RelativeLayout>
